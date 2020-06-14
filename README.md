@@ -12,13 +12,15 @@
      ( created for you, because we are all lazy to type those. )
 
       ```console
-
-       debunktbet on master
-       aury 愛: chmod +x run
-
+      padul@universe:~$ chmod +x run
       ```
 
   5. Then run the server with `./run`
+  
+      ```console
+      padul@universe:~$ ./run
+      ```
+      
   6. Should be on `http://localhost:4000`
 
 

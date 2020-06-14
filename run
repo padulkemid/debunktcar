@@ -1,0 +1,14 @@
+#!/bin/sh
+
+runDeno() {
+  deno run \
+    --allow-net \
+    --allow-write \
+    --allow-read \
+    --allow-plugin \
+    --unstable \
+    $1
+}
+
+# Run the func
+runDeno server.ts

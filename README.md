@@ -140,7 +140,7 @@
  
  MIT
  
-## Footnote
+## Footnote 👣
 
  Thanks for reading until the bottom of this README, press the star button if you like it ! ⭐️
  

@@ -1,5 +1,5 @@
 <h1 align="center"> 🦖 DebunktCar 🦕 </h1>
-<p align="center"><em>Ow yeahh it iz DONE. ( did you get it? no ? 😞 )</em></p>
+<p align="center"><em>Ow yeahh it iz DONE. ( did you get it ? no ? 😞 )</em></p>
 
 ---
 

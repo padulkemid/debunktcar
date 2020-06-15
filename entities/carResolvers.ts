@@ -15,6 +15,19 @@ export const getCars = async () => {
   return allCarsIdMapped;
 };
 
+export const getCarById = async (_: any, { id }: any) => {
+  const getCar = await Cars.findOne({ _id: { $oid: id } });
+  const { manufacturer, name, power } = getCar;
+  const struct: Car = {
+    id,
+    manufacturer,
+    name,
+    power,
+  };
+
+  return struct;
+};
+
 // Mutation
 export const createCar = async (_: any, { input }: any) => {
   const insertCar = await Cars.insertOne(input);
@@ -25,6 +38,31 @@ export const createCar = async (_: any, { input }: any) => {
     manufacturer,
     name,
     power,
+  };
+
+  return struct;
+};
+
+export const updateCar = async (_: any, { input }: any) => {
+  const { id, manufacturer, name, power } = input;
+  const updateCar = await Cars.updateOne(
+    { _id: { $oid: id } },
+    {
+      manufacturer,
+      name,
+      power,
+    }
+  );
+  const getCarAfterUpdated = await getCarById(_, input);
+
+  return getCarAfterUpdated;
+};
+
+export const deleteCar = async (_: any, { id }: any) => {
+  const deletedCount = await Cars.deleteOne({ _id: { $oid: id } });
+  const struct = {
+    id,
+    result: `Cars with id of -> ${id} is deleted.`,
   };
 
   return struct;

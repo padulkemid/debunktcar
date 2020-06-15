@@ -20,7 +20,7 @@
 
   1. Install `deno`, **this** should be mandatory.
   2. Clone this thing.
-  3. `cd debunkbet` and edit stuffs.
+  3. `cd debunktcar` and edit stuffs.
   4. Refer to this snippet on how to run the server.  
      ( created for you, because we are all lazy to type those. )
 

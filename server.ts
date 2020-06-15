@@ -1,6 +1,6 @@
 import { Application } from 'https://deno.land/x/oak/mod.ts';
 import { applyGraphQL } from 'https://deno.land/x/oak_graphql/mod.ts';
-import { typeDefs, resolvers } from './utils/index.ts';
+import { typeDefs, resolvers } from './utils/gqlCfg.ts';
 
 const app = new Application();
 

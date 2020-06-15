@@ -1,8 +1,11 @@
-import { getCars } from '../entities/carResolvers.ts';
+import { getCars, createCar } from '../entities/carResolvers.ts';
 
 const resolvers = {
   Query: {
     getCars,
+  },
+  Mutation: {
+    createCar,
   },
 };
 

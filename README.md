@@ -1,9 +1,9 @@
-<h1 align="center"> 🦖 DebunkCar 🦕 </h1>
+<h1 align="center"> 🦖 DebunktCar 🦕 </h1>
 <p align="center"><em>Ow yeahh it iz DONE. ( did you get it? no ? 😞 )</em></p>
 
 ---
 
-## Description
+## Description 📕
 
   A lot of you want to create a simple MongoDB CRUD with GraphQL.
   But hey, you want to try this new thing called `deno` too.

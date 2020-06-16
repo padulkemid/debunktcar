@@ -4,7 +4,7 @@ import { Car } from '../utils/interfaces.ts';
 // Queries
 export const getCars = async () => {
   const allCars = await Cars.find();
-  const allCarsIdMapped = allCars.map((el: any) => {
+  const allCarsIdMapped: Car[] = allCars.map((el: any) => {
     const {
       _id: { $oid: realId },
     } = el;
@@ -53,7 +53,7 @@ export const updateCar = async (_: any, { input }: any) => {
       power,
     }
   );
-  const getCarAfterUpdated = await getCarById(_, input);
+  const getCarAfterUpdated: Car = await getCarById(_, input);
 
   return getCarAfterUpdated;
 };

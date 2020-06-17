@@ -3,7 +3,9 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
-  <img src="https://img.shields.io/badge/Coverage-100%25-brightgreen.svg">
+  <img src="https://img.shields.io/badge/Coverage-100%25-brightgreen.svg"
+  alt="Coverage">
+  <img src="https://app.codacy.com/project/badge/Grade/974d4811091a4a7988fb4f2870194538" alt="Codacy Grade">
 </div>
 
 

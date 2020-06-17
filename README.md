@@ -9,6 +9,8 @@
 
 ## Description 📕
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c03d8798a412478fb7b5175ddef0b3b3)](https://app.codacy.com/manual/padulkemid/debunktcar?utm_source=github.com&utm_medium=referral&utm_content=padulkemid/debunktcar&utm_campaign=Badge_Grade_Settings)
+
   A lot of you want to create a simple MongoDB CRUD with GraphQL.
   But hey, you want to try this new thing called `deno` too.
   Yup, try this example and go further explore things.
